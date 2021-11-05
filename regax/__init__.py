@@ -9,7 +9,7 @@ def try_use_regax():
         print(type(my))
         if len(str(my.group())) == 10:
             print('ok')
-    except AttributeError:
+    except TypeError:
         print('Будьте уважнішим')
 
 
